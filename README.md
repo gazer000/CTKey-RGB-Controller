@@ -7,6 +7,10 @@ thijse's EEPROMex: https://github.com/thijse/Arduino-EEPROMEx
 
 Adafruit's Neopixel: https://github.com/adafruit/Adafruit_NeoPixel
 
+Bounce2: https://github.com/thomasfredericks/Bounce2
+
+SoftPWM: https://github.com/bhagman/SoftPWM
+
 WS2812fx modified đã có ở bên trên.
 
 Tất cả library đều copy vào thư mục libaries trong Documents/Arduino.
