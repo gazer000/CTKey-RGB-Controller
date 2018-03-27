@@ -1,5 +1,5 @@
 # CTKey
-Open-source osu! keyboard with a WinForm RGB LED controller
+Bàn phím để chơi osu! mã nguồn mở với 1 phần mềm WinForm điều chỉnh đèn LED RGB.
 
 Để compile được file Arduino, các bạn cần có các file thư viện sau:
 
