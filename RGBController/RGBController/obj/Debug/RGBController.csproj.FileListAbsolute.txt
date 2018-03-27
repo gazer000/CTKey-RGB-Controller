@@ -1,0 +1,9 @@
+c:\users\gazer\onedrive\documents\visual studio 2015\Projects\RGBController\RGBController\bin\Debug\RGBController.exe.config
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\bin\Debug\RGBController.exe
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\bin\Debug\RGBController.pdb
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Debug\RGBController.csprojResolveAssemblyReference.cache
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Debug\RGBController.Form1.resources
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Debug\RGBController.Properties.Resources.resources
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Debug\RGBController.csproj.GenerateResource.Cache
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Debug\RGBController.exe
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Debug\RGBController.pdb
