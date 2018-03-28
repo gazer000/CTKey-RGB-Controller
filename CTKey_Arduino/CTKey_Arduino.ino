@@ -40,6 +40,7 @@ void setup()
   topfadereverse = EEPROM.read(7);
   topfaderandom = EEPROM.read(8);
   topstatic = EEPROM.read(9);
+  topoff = EEPROM.read(16);
   R = EEPROM.read(10);
   G = EEPROM.read(11);
   B = EEPROM.read(12);
@@ -149,6 +150,7 @@ void switchModes()
     EEPROM.update(7, topfadereverse);
     EEPROM.update(8, topfaderandom);
     EEPROM.update(9, topstatic);
+    EEPROM.update(16, topoff);
   }
   if (cmd == F("x")) {
     EEPROM.updateLong(2, ws2812fx.getColor());
