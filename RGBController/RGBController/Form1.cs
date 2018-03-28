@@ -482,6 +482,19 @@ namespace RGBController
                 trackBar3.Hide();
                 port.WriteLine("TRA");
             }
+            if (comboBox3.SelectedItem == "Off")
+            {
+                label2.Hide();
+                label3.Hide();
+                label4.Hide();
+                label5.Hide();
+                label6.Hide();
+                label7.Hide();
+                trackBar1.Hide();
+                trackBar2.Hide();
+                trackBar3.Hide();
+                port.WriteLine("TOFF");
+            }
         }
 
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
