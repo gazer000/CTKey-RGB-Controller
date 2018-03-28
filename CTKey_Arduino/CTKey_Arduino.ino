@@ -14,7 +14,7 @@ String cmd = "";
 boolean cmd_complete = false;
 boolean pressed, pressed1, pressed2 = false;
 boolean toprb = false;
-boolean topfade, topfadereverse, topfaderandom, topstatic = false;
+boolean topfade, topfadereverse, topfaderandom, topstatic, topoff = false;
 const int redPin = 6;
 const int greenPin = 5;
 const int bluePin = 3;
@@ -181,12 +181,28 @@ void toprgbcontrol() {
     topfadereverse = false;
     topfaderandom = false;
     topstatic = false;
+    topoff = false;
     SoftPWMSetFadeTime(ALL, 5, 5);
     if (millis() >= fade_goTime)
     {
       fade1();
       fade2();
     }
+  }
+  if (cmd == F("TOFF") || topoff == true)
+  {
+    toprb = false;
+    topfade = false;
+    topfadereverse = false;
+    topfaderandom = false;
+    topstatic = false;
+    topoff = true;
+    SoftPWMSet(redPin, 0);
+    SoftPWMSet(bluePin, 0);
+    SoftPWMSet(greenPin, 0);
+    SoftPWMSet(redPin2, 0);
+    SoftPWMSet(bluePin2, 0);
+    SoftPWMSet(greenPin2, 0);
   }
   if (cmd.startsWith("T1"))
   {
@@ -205,6 +221,7 @@ void toprgbcontrol() {
     topfadereverse = false;
     topfaderandom = false;
     topstatic = true;
+    topoff = false;
     SoftPWMSet(redPin, R);
     SoftPWMSet(bluePin, B);
     SoftPWMSet(greenPin, G);
@@ -224,6 +241,7 @@ void toprgbcontrol() {
     topfadereverse = false;
     topfaderandom = false;
     topstatic = false;
+    topoff = false;
     top_fade_press();
   }
   if (cmd == F("TFR") || topfadereverse == true)
@@ -233,6 +251,7 @@ void toprgbcontrol() {
     topfadereverse = true;
     topfaderandom = false;
     topstatic = false;
+    topoff = false;
     top_fade_reverse();
   }
   if (cmd == F("TRA") || topfaderandom == true)
@@ -242,6 +261,7 @@ void toprgbcontrol() {
     topfadereverse = false;
     topfaderandom = true;
     topstatic = false;
+    topoff = false;
     top_fade_random();
   }
 }
