@@ -24,7 +24,7 @@ const int greenPin2 = 9;
 long int fade_goTime;
 int fade_break = 10;
 int R, G, B, R2, G2, B2;
-int value1, value2, value3, value4;
+int value1, value2, value3, value4, value5;
 long randNumb1, randNumb2, randNumb3, randNumb4, randNumb5, randNumb6;
 void setup()
 {
@@ -40,7 +40,6 @@ void setup()
   topfadereverse = EEPROM.read(7);
   topfaderandom = EEPROM.read(8);
   topstatic = EEPROM.read(9);
-  topoff = EEPROM.read(16);
   R = EEPROM.read(10);
   G = EEPROM.read(11);
   B = EEPROM.read(12);
@@ -82,6 +81,7 @@ void keyboard()
   value2 = b2d.read();
   value3 = digitalRead(A1);
   value4 = digitalRead(A2);
+  value5 = digitalRead(A3);
   if (!pressed && value1 == 0)
   {
     pressed = true;
@@ -120,6 +120,14 @@ void keyboard()
     Keyboard.release(KEY_LEFT_CTRL);
     Keyboard.release('r');
   }
+  if (value5 == 0)
+  {
+    Keyboard.press(KEY_F8);
+  }
+  else if (value5 == 1)
+  {
+    Keyboard.release(KEY_F8);
+  }
 }
 void switchModes()
 {
@@ -150,7 +158,6 @@ void switchModes()
     EEPROM.update(7, topfadereverse);
     EEPROM.update(8, topfaderandom);
     EEPROM.update(9, topstatic);
-    EEPROM.update(16, topoff);
   }
   if (cmd == F("x")) {
     EEPROM.updateLong(2, ws2812fx.getColor());
