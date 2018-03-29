@@ -50,6 +50,7 @@ void setup()
   pinMode(7, INPUT_PULLUP);
   pinMode(A1, INPUT_PULLUP);
   pinMode(A2, INPUT_PULLUP);
+  pinMode(A3, INPUT_PULLUP);
   SoftPWMBegin(SOFTPWM_INVERTED);
   SoftPWMSet(3, 0);
   SoftPWMSet(5, 0);
@@ -395,6 +396,7 @@ void custom_color_t1()
   topfadereverse = false;
   topfaderandom = false;
   topstatic = true;
+  topoff = false;
   R = (cmd.substring(cmd.indexOf("T1") + 1 , cmd.indexOf("R") )).toInt();
   SoftPWMSet(redPin, R);
 
@@ -411,6 +413,7 @@ void custom_color_t2()
   topfadereverse = false;
   topfaderandom = false;
   topstatic = true;
+  topoff = false;
   R2 = (cmd.substring(cmd.indexOf("T2") + 1 , cmd.indexOf("R") )).toInt();
   SoftPWMSet(redPin2, R2);
 
@@ -427,6 +430,7 @@ void custom_color_t()
   topfadereverse = false;
   topfaderandom = false;
   topstatic = true;
+  topoff = false;
   R = (cmd.substring(cmd.indexOf("T3") + 1 , cmd.indexOf("R") )).toInt();
   R2 = R;
   SoftPWMSet(redPin, R);
