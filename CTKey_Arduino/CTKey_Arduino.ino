@@ -5,7 +5,7 @@
 #include <SoftPWM.h>
 #define REDUCED_MODES
 #include <WS2812FX.h>
-#define LED_COUNT 16
+#define LED_COUNT 2
 #define LED_PIN 4
 Bounce b1d = Bounce();
 Bounce b2d = Bounce();
