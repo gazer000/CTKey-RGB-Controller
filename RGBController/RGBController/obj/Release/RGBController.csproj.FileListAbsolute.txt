@@ -1,0 +1,19 @@
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\bin\Release\RGBController.exe.config
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\bin\Release\RGBController.exe
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\bin\Release\RGBController.pdb
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Release\RGBController.Form1.resources
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Release\RGBController.Properties.Resources.resources
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Release\RGBController.csproj.GenerateResource.Cache
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Release\RGBController.exe
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Release\RGBController.pdb
+C:\Users\gazer\OneDrive\Documents\Visual Studio 2015\Projects\RGBController\RGBController\obj\Release\RGBController.csprojResolveAssemblyReference.cache
+C:\Users\gazer\RGBController\RGBController\bin\Release\RGBController.exe.config
+C:\Users\gazer\RGBController\RGBController\bin\Release\RGBController.exe
+C:\Users\gazer\RGBController\RGBController\bin\Release\RGBController.pdb
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.csprojResolveAssemblyReference.cache
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.Form1.resources
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.Properties.Resources.resources
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.csproj.GenerateResource.Cache
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.exe
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.pdb
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.csproj.CoreCompileInputs.cache
