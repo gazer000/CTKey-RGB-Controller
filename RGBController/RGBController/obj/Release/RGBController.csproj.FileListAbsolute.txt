@@ -16,3 +16,4 @@ C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.Properties.
 C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.csproj.GenerateResource.Cache
 C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.exe
 C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.pdb
+C:\Users\gazer\RGBController\RGBController\obj\Release\RGBController.csproj.CoreCompileInputs.cache
